@@ -3,5 +3,8 @@ const login = (username, password) => {
 };
 
 const register = (username, password, confirmPassword) => {
-  console.log("Dang ky thanh cong");
+  console.error("Dang ky thanh cong");
 };
+
+login();
+register();
