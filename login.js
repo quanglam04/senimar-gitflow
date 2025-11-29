@@ -1,7 +1,5 @@
-const validate = (username, password) => {};
-const login = (username, password, otp) => {
-  validate(username, password);
-  console.log("username,password,otp");
+const login = (username, password) => {
+  console.log("username,password");
 };
 login();
 export { login };
